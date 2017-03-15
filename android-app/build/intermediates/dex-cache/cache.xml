@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_efcc588ab27fb7d7d883913454b0eb33977c3550/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/nineoldandroids-2.4.0_ed0231a715d87eab46d802e492b3b720c4d5eddb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/org.boofcv/ip/0.18/614ecb3d73499878b1f04be54330f0f919ea129c/ip-0.18.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="614ecb3d73499878b1f04be54330f0f919ea129c">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/ip-0.18_3632ac554298dd994f58d10d54c5f1a0e98c3181/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/org.boofcv/geo/0.18/fbe35a3b9a6af1d19ca6a4afa6a88b0e55ece607/geo-0.18.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbe35a3b9a6af1d19ca6a4afa6a88b0e55ece607">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/geo-0.18_a81f10e7a61d2c200ba870283404019c46ee9843/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/Parse-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1724acfaa5ad53f76aad702318391fed16cd98ca">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/Parse-1.4.0_061d1bedd117eac5c1cb71137f6ad2ae5214dd24/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-jvm/2.3.1/4d53b7d6983247af02b8fe7e4228fff555a5e828/firebase-client-jvm-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4d53b7d6983247af02b8fe7e4228fff555a5e828">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/firebase-client-jvm-2.3.1_ccde418485ace1ab686e616031ad19f0a1b4fedb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/org.ddogleg/ddogleg/0.6/81cb8522ea1c4f594e5e1804f75351555a892629/ddogleg-0.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="81cb8522ea1c4f594e5e1804f75351555a892629">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/ddogleg-0.6_9d773d5ef6877a31ba27aca654d432b32094cee6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.11/d37cb67277928cf59344b4196af8d9cee1f1a27c/tubesock-0.0.11.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d37cb67277928cf59344b4196af8d9cee1f1a27c">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/tubesock-0.0.11_225e66c39798a5021d1c0a55e2cfcb2542d44a3d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/butterknife-1.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="061a856888185f11271372c0508bad85e905617f">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/butterknife-1.3.2_7825f86a01afc689282f24d34c55c8ba497496b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/nineoldandroids-2.4.0_ed0231a715d87eab46d802e492b3b720c4d5eddb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.android/build-cache/23023de5cdbd0624d04021ba035cb786b26f397d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a22669b9e58d5d07f3838807c0472183ff6f2ddf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/javax.inject-1_dd3489671602a7f41a9d5afe13a61b3e2dfc0593/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_02eb657c1a23afb3b97fd98461ac868eef75c9ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/org.boofcv/android/0.18/4ffd4f96b92518c58d73518188cc244444e5209c/android-0.18.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ffd4f96b92518c58d73518188cc244444e5209c">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/android-0.18_ffea0ae7bce9fe5ea56cd16f5b60bde1ef3975de/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.android/build-cache/eab14063e5ab568cd458c2c68debf9feb40a99ec/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ede1a7ec59ebba68182956fd8624f10bd60fceef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/CWAC-SackOfViewsAdapter.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c514a41a4d82b75c692e161557fb3a493964794f">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/CWAC-SackOfViewsAdapter_70cbceedf61be72202492494b613b17c92a5ebf7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/gson-2.2.4_ee0cb0f8b947d97b73143cc555a36f0f1bf2cbaa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/org.georegression/georegression/0.7/88c75ca9c5049afdcea41e9bd622ab22ef896a20/georegression-0.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="88c75ca9c5049afdcea41e9bd622ab22ef896a20">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/georegression-0.7_33d962a1d01e7e6c8eefce39763a179cdf7d5028/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.2.2_d1c0b9e3310b8826299ab1a6067a1ad47393820f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-android/2.3.1/be29b24233711c419ce935aa0a1b12ebc49d1c9a/firebase-client-android-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="be29b24233711c419ce935aa0a1b12ebc49d1c9a">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/firebase-client-android-2.3.1_0e30f6f9717565510bbc8bc71eae56bce51310a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/http-request-5.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ccba3686d4f6be4f801afc44b89d21c194633940">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/http-request-5.5_73180a8d0fdab049cd7c0bd7b0cd8133c6f40b51/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/javawriter-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b290e394ea3109be5c0b7f08ff75de089125122">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/javawriter-2.3.0_30c430ab6a6e56dafa42b3e05114afb057a7d9f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-jvm/2.3.1/4d53b7d6983247af02b8fe7e4228fff555a5e828/firebase-client-jvm-2.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4d53b7d6983247af02b8fe7e4228fff555a5e828">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/firebase-client-jvm-2.3.1_ccde418485ace1ab686e616031ad19f0a1b4fedb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/3c8f6018eaa72d43b261181e801e6f8676c16ef6/jackson-databind-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.2.2_8c3deb20bcf72c378ae34e247aa9a2ec943919ed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.2/d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b/jackson-core-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.2.2_8f38dd2985e60474679cbdc5c5eb51a0135b7f15/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/Parse-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1724acfaa5ad53f76aad702318391fed16cd98ca">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/Parse-1.4.0_061d1bedd117eac5c1cb71137f6ad2ae5214dd24/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/dagger-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="49f2061c938987c8e56679a731d74fd8448d8742">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/dagger-1.1.0_6ba7d4c9b71ccad359f635ba3824bc39c4e3fb03/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/CWAC-SackOfViewsAdapter.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c514a41a4d82b75c692e161557fb3a493964794f">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/CWAC-SackOfViewsAdapter_70cbceedf61be72202492494b613b17c92a5ebf7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.android/build-cache/23023de5cdbd0624d04021ba035cb786b26f397d/output/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_459fe464083903750f918c95a12cd04db7edf734/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/org.boofcv/feature/0.18/8e58c2146cba9533278bbd50d3276b4c5a025de1/feature-0.18.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e58c2146cba9533278bbd50d3276b4c5a025de1">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/feature-0.18_cdfe9ada7f77379c1f20fa5086ab4fe717eda636/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/http-request-5.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ccba3686d4f6be4f801afc44b89d21c194633940">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/http-request-5.5_73180a8d0fdab049cd7c0bd7b0cd8133c6f40b51/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/dagger-1.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="49f2061c938987c8e56679a731d74fd8448d8742">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/dagger-1.1.0_6ba7d4c9b71ccad359f635ba3824bc39c4e3fb03/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/com.googlecode.efficient-java-matrix-library/core/0.26/2df89c44ad92900f025a61e228bbbcd6abca3efd/core-0.26.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2df89c44ad92900f025a61e228bbbcd6abca3efd">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/core-0.26_9960a0e3e0d2314143791d3756d8628c78da2de1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/org.boofcv/calibration/0.18/9beb619549ef31c8f6a58d5a37756a485dca53c4/calibration-0.18.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9beb619549ef31c8f6a58d5a37756a485dca53c4">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/calibration-0.18_fe0f9c72c3ff26828bbb474d1a77056699dadec4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/javax.inject-1_dd3489671602a7f41a9d5afe13a61b3e2dfc0593/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/Parse-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1724acfaa5ad53f76aad702318391fed16cd98ca">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/Parse-1.4.0_061d1bedd117eac5c1cb71137f6ad2ae5214dd24/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/gson-2.2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/gson-2.2.4_ee0cb0f8b947d97b73143cc555a36f0f1bf2cbaa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.android/build-cache/8e2821dd0a66932f0f74df0eea5cd3556b0e151f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_862063bece260b05dad0d1097df274bd080a9216/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/com.googlecode.efficient-java-matrix-library/core/0.26/2df89c44ad92900f025a61e228bbbcd6abca3efd/core-0.26.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2df89c44ad92900f025a61e228bbbcd6abca3efd">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/core-0.26_9960a0e3e0d2314143791d3756d8628c78da2de1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/org.boofcv/ip/0.18/614ecb3d73499878b1f04be54330f0f919ea129c/ip-0.18.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="614ecb3d73499878b1f04be54330f0f919ea129c">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/ip-0.18_3632ac554298dd994f58d10d54c5f1a0e98c3181/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/butterknife-1.3.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="061a856888185f11271372c0508bad85e905617f">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/butterknife-1.3.2_7825f86a01afc689282f24d34c55c8ba497496b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/org.ddogleg/ddogleg/0.6/81cb8522ea1c4f594e5e1804f75351555a892629/ddogleg-0.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="81cb8522ea1c4f594e5e1804f75351555a892629">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/ddogleg-0.6_9d773d5ef6877a31ba27aca654d432b32094cee6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.11/d37cb67277928cf59344b4196af8d9cee1f1a27c/tubesock-0.0.11.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d37cb67277928cf59344b4196af8d9cee1f1a27c">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/tubesock-0.0.11_225e66c39798a5021d1c0a55e2cfcb2542d44a3d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.0.1/7ffdb02f95af1c1a208544e076cea5b8e66e731a/commons-io-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7ffdb02f95af1c1a208544e076cea5b8e66e731a">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-io-2.0.1_e1ba7dfabd19fe08afb976c5134b27a73f0b257a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/dagger-1.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="49f2061c938987c8e56679a731d74fd8448d8742">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/dagger-1.1.0_6ba7d4c9b71ccad359f635ba3824bc39c4e3fb03/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/org.boofcv/geo/0.18/fbe35a3b9a6af1d19ca6a4afa6a88b0e55ece607/geo-0.18.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbe35a3b9a6af1d19ca6a4afa6a88b0e55ece607">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/geo-0.18_a81f10e7a61d2c200ba870283404019c46ee9843/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/nineoldandroids-2.4.0_ed0231a715d87eab46d802e492b3b720c4d5eddb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fd986018ac5c1b15963428dff9020ebac8a90f42">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_13d3b3f7960c5fc0554a8e72e2252477de1b99f9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/org.boofcv/android/0.18/4ffd4f96b92518c58d73518188cc244444e5209c/android-0.18.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ffd4f96b92518c58d73518188cc244444e5209c">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/android-0.18_ffea0ae7bce9fe5ea56cd16f5b60bde1ef3975de/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/CWAC-SackOfViewsAdapter.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c514a41a4d82b75c692e161557fb3a493964794f">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/CWAC-SackOfViewsAdapter_70cbceedf61be72202492494b613b17c92a5ebf7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-android/2.3.1/be29b24233711c419ce935aa0a1b12ebc49d1c9a/firebase-client-android-2.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="be29b24233711c419ce935aa0a1b12ebc49d1c9a">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/firebase-client-android-2.3.1_0e30f6f9717565510bbc8bc71eae56bce51310a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/butterknife-1.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="061a856888185f11271372c0508bad85e905617f">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/butterknife-1.3.2_7825f86a01afc689282f24d34c55c8ba497496b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.android/build-cache/249191484f246111216e4d082c78a3c6139533ce/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d28d5bdfa796a273ff95970a785b9434114f71c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/org.georegression/georegression/0.7/88c75ca9c5049afdcea41e9bd622ab22ef896a20/georegression-0.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="88c75ca9c5049afdcea41e9bd622ab22ef896a20">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/georegression-0.7_33d962a1d01e7e6c8eefce39763a179cdf7d5028/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/3c8f6018eaa72d43b261181e801e6f8676c16ef6/jackson-databind-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.2.2_8c3deb20bcf72c378ae34e247aa9a2ec943919ed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.2.2_d1c0b9e3310b8826299ab1a6067a1ad47393820f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.0.1/7ffdb02f95af1c1a208544e076cea5b8e66e731a/commons-io-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7ffdb02f95af1c1a208544e076cea5b8e66e731a">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-io-2.0.1_e1ba7dfabd19fe08afb976c5134b27a73f0b257a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/javawriter-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b290e394ea3109be5c0b7f08ff75de089125122">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/javawriter-2.3.0_30c430ab6a6e56dafa42b3e05114afb057a7d9f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/http-request-5.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ccba3686d4f6be4f801afc44b89d21c194633940">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/http-request-5.5_73180a8d0fdab049cd7c0bd7b0cd8133c6f40b51/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/gson-2.2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/gson-2.2.4_ee0cb0f8b947d97b73143cc555a36f0f1bf2cbaa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/org.boofcv/feature/0.18/8e58c2146cba9533278bbd50d3276b4c5a025de1/feature-0.18.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e58c2146cba9533278bbd50d3276b4c5a025de1">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/feature-0.18_cdfe9ada7f77379c1f20fa5086ab4fe717eda636/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.2/d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b/jackson-core-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.2.2_8f38dd2985e60474679cbdc5c5eb51a0135b7f15/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/javawriter-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b290e394ea3109be5c0b7f08ff75de089125122">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/javawriter-2.3.0_30c430ab6a6e56dafa42b3e05114afb057a7d9f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/.gradle/caches/modules-2/files-2.1/org.boofcv/calibration/0.18/9beb619549ef31c8f6a58d5a37756a485dca53c4/calibration-0.18.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9beb619549ef31c8f6a58d5a37756a485dca53c4">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/calibration-0.18_fe0f9c72c3ff26828bbb474d1a77056699dadec4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/libs/javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/2/javax.inject-1_dd3489671602a7f41a9d5afe13a61b3e2dfc0593/classes.dex" />
+    </item>
+
+</items>

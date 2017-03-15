@@ -1,7 +1,12 @@
 package com.echopen.asso.echopen.preproc;
 
+import android.os.Build;
+import android.renderscript.Allocation;
+import android.renderscript.Element;
+import android.renderscript.RenderScript;
 import android.util.Log;
 
+import com.asso.echopen.gpuchallenge.ScriptC_scanconversion;
 import com.echopen.asso.echopen.MainActivity;
 import com.echopen.asso.echopen.model.Data.Data;
 import com.echopen.asso.echopen.model.Data.ReadableData;
@@ -66,10 +71,91 @@ public class ScanConversion {
     private static int[][] udpDataArray;
 
     private static int[] image;
+
+    public int[] getImage() {
+        return image;
+    }
+
+    public void setImage(int[] image) {
+        this.image = image;
+    }
+
     private static int N_samples;
     private static int[] num;
     private static int[] envelope_data;
     private static byte[] envelope_data_bytes;
+
+    private static int[] index_counter;
+
+    private Allocation indexSampLine;
+
+    public Allocation getIndexSampLine() {
+        return indexSampLine;
+    }
+
+    public void setIndexSampLine(Allocation indexSampLine) {
+        this.indexSampLine = indexSampLine;
+    }
+
+    private Allocation imageIndex;
+
+    public Allocation getImageIndex() {
+        return imageIndex;
+    }
+
+    public void setImageIndex(Allocation imageIndex) {
+        this.imageIndex = imageIndex;
+    }
+
+    private Allocation indexCounter;
+
+    public Allocation getIndexCounter() {
+        return indexCounter;
+    }
+
+    public void setIndexCounter(Allocation indexCounter) {
+        this.indexCounter = indexCounter;
+    }
+
+    private Allocation outIndexCounter;
+
+    public Allocation getOutIndexCounter() {
+        return outIndexCounter;
+    }
+
+    public void setOutIndexCounter(Allocation outIndexCounter) {
+        this.outIndexCounter = outIndexCounter;
+    }
+
+    private Allocation weightCoef;
+
+    public Allocation getWeightCoef() {
+        return weightCoef;
+    }
+
+    public void setWeightCoef(Allocation weightCoef) {
+        this.weightCoef = weightCoef;
+    }
+
+    private Allocation output_image;
+
+    public Allocation getOutput_image() {
+        return output_image;
+    }
+
+    public void setOutput_image(Allocation output_image) {
+        this.output_image = output_image;
+    }
+
+    private Allocation envelopeData;
+
+    public void setEnvelopeData(Allocation envelopeData) {
+        this.envelopeData = envelopeData;
+    }
+
+    private RenderScript renderScript;
+
+    private ScriptC_scanconversion scriptC_scanconversion;
 
     private Random rnd = new Random();
 
@@ -395,7 +481,10 @@ public class ScanConversion {
         ScanConversion.indexData = index_samp_line;
         ScanConversion.indexImg = image_index;
         ScanConversion.weight =  weight_coef;
-
+        index_counter = new int[numPixels];
+        for (i = 0; i < numPixels;i++) {
+            index_counter[i] = i;
+        }
         return N_values;
     }
 
@@ -651,5 +740,55 @@ public class ScanConversion {
         }
 
         return oCartesianImage;
+    }
+
+    public void setRenderScript(RenderScript renderScript) {
+        this.renderScript = renderScript;
+        scriptC_scanconversion = new ScriptC_scanconversion(renderScript);
+
+        this.setIndexSampLine(Allocation.createSized(renderScript, Element.I32(renderScript), indexData.length));
+        indexSampLine.copyFrom(indexData);
+        scriptC_scanconversion.bind_index_samp_line(indexSampLine);
+
+        this.setImageIndex(Allocation.createSized(renderScript, Element.I32(renderScript), indexImg.length));
+        imageIndex.copyFrom(indexImg);
+        scriptC_scanconversion.bind_image_index(imageIndex);
+
+        this.setIndexCounter(Allocation.createSized(renderScript, Element.I32(renderScript), index_counter.length));
+        indexCounter.copyFrom(index_counter);
+        scriptC_scanconversion.bind_index_counter(indexCounter);
+
+        this.setWeightCoef(Allocation.createSized(renderScript, Element.F64(renderScript), weight.length));
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            weightCoef.copyFrom(weight);
+        }
+        scriptC_scanconversion.bind_weight_coef(weightCoef);
+
+        int Nz = Constants.PreProcParam.N_x;
+        int Nx = Constants.PreProcParam.N_z;
+        this.setImage(new int[Nz*Nx]);
+        this.setOutput_image(Allocation.createSized(renderScript, Element.I32(renderScript), image.length));
+        output_image.copyFrom(image);
+        scriptC_scanconversion.bind_output_image(output_image);
+
+        scriptC_scanconversion.invoke_set_PixelsCount(numPixels);
+        int N_samples = (int) Math.floor(Constants.PreProcParam.NUM_SAMPLES);
+        scriptC_scanconversion.invoke_set_NumLines(N_samples);
+
+        this.setEnvelopeData(Allocation.createSized(renderScript, Element.I32(renderScript), envelope_data.length));
+    }
+
+    public int[] launchScript(int envelope_data[]) {
+
+        int random_index = rnd.nextInt(envelope_data.length);
+        envelope_data[random_index] = rnd.nextInt(255);
+
+        envelopeData.copyFrom(envelope_data);
+        scriptC_scanconversion.bind_envelope_data(envelopeData);
+
+        scriptC_scanconversion.invoke_process(indexCounter);
+
+        scriptC_scanconversion.get_output_image().copyTo(image);
+        return image;
     }
 }

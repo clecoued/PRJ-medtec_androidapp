@@ -9,6 +9,7 @@ package com.echopen.asso.echopen.model.Data;
 import android.app.Activity;
 import android.content.res.AssetManager;
 import android.os.Debug;
+import android.renderscript.RenderScript;
 
 import com.echopen.asso.echopen.filters.EnvelopDetectionFilter;
 import com.echopen.asso.echopen.filters.RenderingContext;
@@ -42,6 +43,8 @@ public class ProcessTCPTask extends AbstractDataTask {
     private DataInputStream dataInputStream;
 
     private static int offset_header = 6;
+
+    private RenderScript renderScript;
 
     public ProcessTCPTask(Activity activity, MainActionController mainActionController, RenderingContextController iRenderingContextController, ScanConversion scanConversion, String ip, int port) {
         super(activity, mainActionController, scanConversion, iRenderingContextController);
@@ -98,7 +101,19 @@ public class ProcessTCPTask extends AbstractDataTask {
         }
         InputStreamReader isReader = new InputStreamReader(inputStream);
         Data data = new Data(isReader);
+        launchScanConversion(data);
         return data.getEnvelopeIntegerData();
+    }
+
+    private void launchScanConversion(Data data) {
+        scanconversion = new ScanConversion(data);
+        ScanConversion.compute_tables();
+        createScript();
+    }
+
+    private void createScript() {
+        renderScript = RenderScript.create(activity);
+        //scanconversion.setRenderScript(renderScript);
     }
 
     private Integer[] getRawImageData(InputStream iStream) throws IOException{
