@@ -2,6 +2,7 @@ package com.echopen.asso.echopen.model.Data;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
+import android.graphics.Color;
 import android.os.AsyncTask;
 
 import com.echopen.asso.echopen.filters.EnvelopDetectionFilter;
@@ -12,6 +13,8 @@ import com.echopen.asso.echopen.preproc.ScanConversion;
 import com.echopen.asso.echopen.ui.MainActionController;
 import com.echopen.asso.echopen.ui.RenderingContextController;
 import com.echopen.asso.echopen.utils.Constants;
+
+import java.util.Arrays;
 
 /**
  * Core class of data collecting routes. Whether the protocol is chosen to be TCP, UDP or fetching data from local,
@@ -37,20 +40,23 @@ abstract public class AbstractDataTask extends AsyncTask<Void, Void, Void> {
         this.mRenderingContextController = iRenderingContextController;
     }
 
-    protected void refreshUI(ScanConversion scanconversion, RenderingContext iCurrentRenderingContext) {
+    protected void refreshUI(ScanConversion scanconversion) {
         int[] scannedArray = scanconversion.getDataFromInterpolation();
 
-        IntensityUniformGainFilter lIntensityGainFilter = new IntensityUniformGainFilter();
+        /*IntensityUniformGainFilter lIntensityGainFilter = new IntensityUniformGainFilter();
         lIntensityGainFilter.setImageInput(scannedArray, scannedArray.length);
         lIntensityGainFilter.applyFilter(iCurrentRenderingContext.getIntensityGain());
         int[] scannedGainArray = lIntensityGainFilter.getImageOutput();
 
         IntensityToRGBFilter lIntensityToRGBFilter = new IntensityToRGBFilter();
         lIntensityToRGBFilter.setImageInput(scannedGainArray, scannedGainArray.length);
-        lIntensityToRGBFilter.applyFilter(iCurrentRenderingContext.getLookUpTable());
-        int colors[] =  lIntensityToRGBFilter.getImageOutput();
+        lIntensityToRGBFilter.applyFilter(iCurrentRenderingContext.getLookUpTable());*/
+        int colors[] =  new int[scannedArray.length];
 
         //Arrays.fill(colors, 0, 4*scannedArray.length, Color.WHITE);
+        for (int i = 0; i < scannedArray.length; i++) {
+            colors[i] = scannedArray[i] | scannedArray[i] << 8 | scannedArray[i] << 16 | 0xFF000000;
+        }
         final Bitmap bitmap = Bitmap.createBitmap(colors, 512*Constants.PreProcParam.SCALE_IMG_FACTOR, 512/Constants.PreProcParam.SCALE_IMG_FACTOR, Bitmap.Config.ARGB_8888);
         try {
             activity.runOnUiThread(new Runnable() {

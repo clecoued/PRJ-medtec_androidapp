@@ -89,7 +89,7 @@ public class Constants {
 
         public static final int N_z = 512;
 
-        public static final int NUM_LINES = 120;
+        public static final int NUM_LINES = 64;
 
         public static final float IMAGE_SIZE = (float) 0.201;
 

@@ -46,6 +46,8 @@ public class ProcessTCPTask extends AbstractDataTask {
 
     private RenderScript renderScript;
 
+    private Data data;
+
     public ProcessTCPTask(Activity activity, MainActionController mainActionController, RenderingContextController iRenderingContextController, ScanConversion scanConversion, String ip, int port) {
         super(activity, mainActionController, scanConversion, iRenderingContextController);
         this.ip = ip;
@@ -76,10 +78,17 @@ public class ProcessTCPTask extends AbstractDataTask {
                     // getting data from local
                     lRawImageData = getRawImageDataFromLocal();
                     //lRawImageData = getRawImageData(stream);
+                    scanconversion.setData(data);
 
-                    Debug.startMethodTracing("trace_app");
-                    rawDataPipeline(ScanConversion.getInstance(), lCurrentRenderingContext, lRawImageData);
-                    Debug.stopMethodTracing();
+                    try {
+                        refreshUI(scanconversion);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+
+                    //Debug.startMethodTracing("trace_app");
+                    //rawDataPipeline(ScanConversion.getInstance(), lCurrentRenderingContext, lRawImageData);
+                    //Debug.stopMethodTracing();
                 } catch (Exception e) {
                     e.printStackTrace();
                     return null;
@@ -100,7 +109,16 @@ public class ProcessTCPTask extends AbstractDataTask {
             e.printStackTrace();
         }
         InputStreamReader isReader = new InputStreamReader(inputStream);
-        Data data = new Data(isReader);
+        data = new Data(isReader);
+        int[] envelopeCropData = new int[1024*64];
+        Integer[] envelopeData = data.getEnvelopeIntegerData();
+
+        for (int i = 0; i < 64; i++) {
+            for (int j = 0; j < 1024; j++) {
+                envelopeCropData[ i*1024 + j ] = envelopeData[i*1478 + j].intValue();
+            }
+        }
+        data.setEnvelopeData(envelopeCropData);
         launchScanConversion(data);
         return data.getEnvelopeIntegerData();
     }
@@ -113,7 +131,7 @@ public class ProcessTCPTask extends AbstractDataTask {
 
     private void createScript() {
         renderScript = RenderScript.create(activity);
-        //scanconversion.setRenderScript(renderScript);
+        scanconversion.setRenderScript(renderScript);
     }
 
     private Integer[] getRawImageData(InputStream iStream) throws IOException{

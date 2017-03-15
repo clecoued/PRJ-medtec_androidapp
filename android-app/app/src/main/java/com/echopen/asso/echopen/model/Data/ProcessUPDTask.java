@@ -76,7 +76,7 @@ public class ProcessUPDTask extends AbstractDataTask {
 
                         ScanConversion scnConv = ScanConversion.getInstance(udpDataArray);
                         scnConv.setUdpData();
-                        refreshUI(scnConv, lCurrentRenderingContext);
+                        //refreshUI(scnConv, lCurrentRenderingContext);
                         udpDataCounterRow = 0;
                     }
                 }

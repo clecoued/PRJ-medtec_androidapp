@@ -33,7 +33,7 @@ public class FileTask extends AbstractDataTask {
             RenderingContext lCurrentRenderingContext = mRenderingContextController.getCurrentRenderingContext();
             scanconversion.setData(data);
 
-            refreshUI(scanconversion, lCurrentRenderingContext);
+            refreshUI(scanconversion);
             //            try {
 //                Thread.sleep(100);
 //            } catch (InterruptedException e) {

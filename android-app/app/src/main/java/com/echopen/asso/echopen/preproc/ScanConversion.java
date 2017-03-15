@@ -562,7 +562,7 @@ public class ScanConversion {
 
         double start_of_data = Constants.PreProcParam.STEP_RADIAL_INIT;   /*  Depth for start of data in meters     */
         double delta_r = Constants.PreProcParam.RADIAL_DATA_INIT; /*  Sampling interval for data in meters  */
-        int N_samples  = (int) Math.floor(Constants.PreProcParam.NUM_SAMPLES);       /*  Number of data samples                */
+        int N_samples  = (int) Math.floor(Constants.PreProcParam.TCP_NUM_SAMPLES);       /*  Number of data samples                */
 
         double delta_theta = Constants.PreProcParam.STEP_ANGLE_INIT; /*  Angle between individual lines        */
         double theta_start = Constants.PreProcParam.NUM_LINES/ 2 * delta_theta;     /*  Angle for first line in image         */
@@ -588,9 +588,9 @@ public class ScanConversion {
 
     public int[] getDataFromInterpolation(){
         try {
-            if(MainActivity.UDP_ACQUISITION || MainActivity.TCP_ACQUISITION)
+            /*if(MainActivity.UDP_ACQUISITION || MainActivity.TCP_ACQUISITION)
                 return opencv_interpolation();
-            else
+            else*/
                 return compute_interpolation();
         } catch (IOException e) {
         }
@@ -651,14 +651,16 @@ public class ScanConversion {
         int Nz = Constants.PreProcParam.N_z;
         int Nx = Constants.PreProcParam.N_x;
 
-        make_interpolation(envelope_data, N_samples, ScanConversion.indexData, ScanConversion.indexImg, ScanConversion.weight, ScanConversion.numPixels, image);
+        launchScript(envelope_data);
+
+        /*make_interpolation(envelope_data, N_samples, ScanConversion.indexData, ScanConversion.indexImg, ScanConversion.weight, ScanConversion.numPixels, image);
 
         for (int i = 0; i < Nz; i++) {
             for (int j = 0; j < Nx ; j++) {
                 num[j*Nz + i] = image[j + Nx*i];
             }
-        }
-        return num;
+        }*/
+        return image;
     }
 
     private int[] opencv_interpolation() throws IOException {
@@ -772,7 +774,7 @@ public class ScanConversion {
         scriptC_scanconversion.bind_output_image(output_image);
 
         scriptC_scanconversion.invoke_set_PixelsCount(numPixels);
-        int N_samples = (int) Math.floor(Constants.PreProcParam.NUM_SAMPLES);
+        int N_samples = (int) Math.floor(Constants.PreProcParam.TCP_NUM_SAMPLES);
         scriptC_scanconversion.invoke_set_NumLines(N_samples);
 
         this.setEnvelopeData(Allocation.createSized(renderScript, Element.I32(renderScript), envelope_data.length));
