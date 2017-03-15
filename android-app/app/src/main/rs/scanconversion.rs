@@ -6,7 +6,7 @@ uint32_t counter;
 uint32_t weight_index;
 
 uint32_t pixelsCount = 262144;
-uint32_t numLines = 128;
+uint32_t numLines = 64;
 int32_t *envelope_data;
 int32_t *index_samp_line;
 double *weight_coef;
@@ -21,14 +21,14 @@ void init(){
 
 void set_PixelsCount(int val) {
     // more processing in real life
-    rsDebug("===========pixelsCount==================", val);
+    //rsDebug("===========pixelsCount==================", val);
     //rsDebug("===========EnvelopeData==================", envelope_data);
     pixelsCount = (uint32_t) val;
 }
 
 void set_NumLines(int val) {
     // more processing in real life
-    rsDebug("===========numLines==================", val);
+    //rsDebug("===========numLines==================", val);
     numLines = (uint32_t) val;
 }
 
