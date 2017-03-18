@@ -430,7 +430,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="fd986018ac5c1b15963428dff9020ebac8a90f42">
+        sha1="084eba6b4b3dada5ef68235a766d06103cb5424c">
         <dex dex="/Users/mehdibenchoufi/forked_project/lecoued/PRJ-medtec_androidapp/PRJ-medtec_androidapp/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_13d3b3f7960c5fc0554a8e72e2252477de1b99f9/classes.dex" />
     </item>
     <item

@@ -16,6 +16,8 @@ import com.echopen.asso.echopen.utils.Constants;
 
 import java.util.Arrays;
 
+import static com.echopen.asso.echopen.utils.Constants.PreProcParam.SCALE_IMG_FACTOR;
+
 /**
  * Core class of data collecting routes. Whether the protocol is chosen to be TCP, UDP or fetching data from local,
  * the dedicated classes inherits from @this
@@ -57,7 +59,7 @@ abstract public class AbstractDataTask extends AsyncTask<Void, Void, Void> {
         for (int i = 0; i < scannedArray.length; i++) {
             colors[i] = scannedArray[i] | scannedArray[i] << 8 | scannedArray[i] << 16 | 0xFF000000;
         }
-        final Bitmap bitmap = Bitmap.createBitmap(colors, 512*Constants.PreProcParam.SCALE_IMG_FACTOR, 512/Constants.PreProcParam.SCALE_IMG_FACTOR, Bitmap.Config.ARGB_8888);
+        final Bitmap bitmap = Bitmap.createBitmap(colors, 512, 512, Bitmap.Config.ARGB_8888);
         try {
             activity.runOnUiThread(new Runnable() {
                 @Override
