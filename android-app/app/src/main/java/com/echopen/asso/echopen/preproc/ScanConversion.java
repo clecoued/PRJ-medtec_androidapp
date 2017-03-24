@@ -1,9 +1,9 @@
 package com.echopen.asso.echopen.preproc;
 
 import android.os.Build;
-import android.renderscript.Allocation;
-import android.renderscript.Element;
-import android.renderscript.RenderScript;
+import android.support.v8.renderscript.Allocation;
+import android.support.v8.renderscript.Element;
+import android.support.v8.renderscript.RenderScript;
 import android.util.Log;
 
 import com.asso.echopen.gpuchallenge.ScriptC_scanconversion;
@@ -304,11 +304,11 @@ public class ScanConversion {
 
     protected void finalize() throws Throwable {
         try {
-            opencv_src.release();
+            /*opencv_src.release();
             opencv_src_larger.release();
-            opencv_dest.release();
+            opencv_dest.release();*/
         } finally {
-            super.finalize();
+           // super.finalize();
         }
     }
 
@@ -756,14 +756,13 @@ public class ScanConversion {
         imageIndex.copyFrom(indexImg);
         scriptC_scanconversion.bind_image_index(imageIndex);
 
-        this.setIndexCounter(Allocation.createSized(renderScript, Element.I32(renderScript), index_counter.length));
+        this.setIndexCounter(Allocation.createSized(renderScript, Element.U32(renderScript), index_counter.length));
         indexCounter.copyFrom(index_counter);
         scriptC_scanconversion.bind_index_counter(indexCounter);
 
         this.setWeightCoef(Allocation.createSized(renderScript, Element.F64(renderScript), weight.length));
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            weightCoef.copyFrom(weight);
-        }
+
+        weightCoef.copyFrom(weight);
         scriptC_scanconversion.bind_weight_coef(weightCoef);
 
         int Nz = Constants.PreProcParam.N_x;
@@ -788,7 +787,7 @@ public class ScanConversion {
         envelopeData.copyFrom(envelope_data);
         scriptC_scanconversion.bind_envelope_data(envelopeData);
 
-        scriptC_scanconversion.invoke_process(indexCounter);
+        scriptC_scanconversion.forEach_scan_convert(indexCounter);
 
         scriptC_scanconversion.get_output_image().copyTo(image);
         return image;

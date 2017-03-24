@@ -54,21 +54,13 @@ void set_NumLines(int val) {
 
 void RS_KERNEL scan_convert(uint in) {
 
-  //rsDebug("===========Counter==================", counter);
-
   uint32_t env_index = index_samp_line[in];
   uint32_t index = image_index[in];
-  if(in %4 == 0) {
-    uint32_t weight_index = 4*(in-1);
-    }
+  uint32_t weight_index = 4 * in;
 
   output_image[index] = (int)(weight_coef[weight_index] * envelope_data[env_index]
                  + weight_coef[weight_index + 1] * envelope_data[env_index + 1]
                   + weight_coef[weight_index + 2] * envelope_data[env_index + numLines]
                   + weight_coef[weight_index + 3] * envelope_data[env_index + numLines + 1]
                   + 0.5);
-}
-
-void process(rs_allocation index_counter) {
-  rsForEach(scan_convert, index_counter);
 }

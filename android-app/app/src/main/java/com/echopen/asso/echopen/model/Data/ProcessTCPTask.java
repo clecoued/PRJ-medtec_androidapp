@@ -9,7 +9,7 @@ package com.echopen.asso.echopen.model.Data;
 import android.app.Activity;
 import android.content.res.AssetManager;
 import android.os.Debug;
-import android.renderscript.RenderScript;
+import android.support.v8.renderscript.RenderScript;
 
 import com.echopen.asso.echopen.filters.EnvelopDetectionFilter;
 import com.echopen.asso.echopen.filters.RenderingContext;
