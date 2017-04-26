@@ -99,6 +99,7 @@
             android:id="@+id/leftBtn"
             android:src="@drawable/ico_haind"
             android:background="@android:color/transparent"
+            android:scaleX="-1"
             android:layout_alignParentEnd="true"
             />
         <ImageButton
